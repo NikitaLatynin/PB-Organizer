@@ -1,0 +1,54 @@
+body {
+    background:linear-gradient(90deg, rgb(17, 43, 77), rgb(120, 107, 175), rgb(87, 22, 148));
+    font-family: 'Archivo', sans-serif;
+    user-select: none;
+}
+
+.container-big {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container {
+    padding: 10px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border: 3px solid;
+    border-color: rgb(192, 196, 199);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    color: white;
+    font-size: 26px;
+    
+}
+
+.paid-num {
+    font-size: 30px;
+}
+
+.glow-button {
+    text-decoration: none;
+    display: block;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    border-color: #4b1492;
+    box-shadow: 0 0 40px 40px #4b1492 inset, 0 0 0 0 #4b1492;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .35s ease-in-out;
+}
+
+.glow-button:hover {
+    box-shadow: 0 0 10px 0 #4b1492 inset, 0 0 10px 4px #4b1492;
+    font-size: 17px;
+}
