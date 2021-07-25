@@ -4,7 +4,15 @@ body {
     user-select: none;
 }
 
+.border-bottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
 .container-big {
+    padding: 15px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -33,6 +41,21 @@ p {
     font-size: 30px;
 }
 
+.in-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.select {
+    padding: 15px;
+    border-radius: 3px;
+    background-color: #4b1492;
+    color: white;
+    font-size: 15px;
+}
+
 .glow-button {
     text-decoration: none;
     display: block;
@@ -51,4 +74,10 @@ p {
 .glow-button:hover {
     box-shadow: 0 0 10px 0 #4b1492 inset, 0 0 10px 4px #4b1492;
     font-size: 17px;
+}
+
+.last-update {
+    font-weight: 600;
+    font-size: 20px;
+    color:rgb(222, 225, 228);
 }
